@@ -6,8 +6,8 @@ using namespace std;
 
 void findMinMax(const vector<int> &arr, int &minVal, int &maxVal)
 {
-    minVal = numeric_limits<int>::max();
-    maxVal = numeric_limits<int>::min();
+    minVal = 20000;
+    maxVal = 0;
 
     for (size_t i = 0; i < arr.size(); ++i)
     {
